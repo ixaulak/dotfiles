@@ -75,11 +75,11 @@ bindsym $mod+Return exec alacritty
 # start applications
 bindsym $mod+F1 exec firefox
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
-bindsym $mod+d exec rofi -font "SF Pro Display Regular 11" -show drun -icon-theme "Papirus-Dark" -show-icons
+bindsym $mod+space exec rofi -font "SF Pro Display Regular 11" -show drun -icon-theme "Papirus-Dark" -show-icons
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -128,7 +128,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+d focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
